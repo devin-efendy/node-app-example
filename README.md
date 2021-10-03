@@ -1,4 +1,4 @@
-# Node App Example
+# Node App Starter
 
 Starter code for Node application using plain JavaScript
 
