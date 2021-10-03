@@ -1,10 +1,13 @@
 // Express
+import dotenv from 'dotenv'
 import express from 'express'
+
+dotenv.config()
+const app = express()
 
 const appUrl = process.env.APP_URL
 const port = process.env.PORT || 3000
 
-const app = express()
 
 app.get('/', (req, res) => {
   const response = {
